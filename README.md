@@ -49,7 +49,6 @@ To ensure that your download has not been tampered with, you can verify the SHA-
 | File Name | Target Platform | SHA-256 Hash |
 | :--- | :--- | :--- |
 | **`DashCam_RoadPrivacy_v1.0.0_win64.zip`** | Windows 10/11 x64 | `e165886ba53cfc50e3cccfad9a3026514e6f351b982a4df3a74160be70667628` |
-| **`RoadPrivacy_v1.0.0.exe`** | Windows 10/11 x64 | `51a1463e4ee18d74a259c2ac9c67db88a1e3f4f15a9645b54fb89aeb45911f2a` |
 
 ### Verifying Hashes in Windows PowerShell:
 
