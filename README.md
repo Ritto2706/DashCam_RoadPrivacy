@@ -2,7 +2,7 @@
 
 [![Release Version](https://img.shields.io/badge/Release-v1.0.0-electriccyan?style=for-the-badge&logo=github)](https://github.com/engstaNET/DashCam_RoadPrivacy/releases)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11%20x64-blue?style=for-the-badge&logo=windows)](https://github.com/engstaNET/DashCam_RoadPrivacy)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-Freeware-green?style=for-the-badge)](LICENSE)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local%20%2F%20Offline-success?style=for-the-badge)](PRIVACY.md)
 
 **DashCam RoadPrivacy** is a high-performance, standalone Windows application engineered for automated AI-powered video anonymization. Designed specifically for DashCam footage, action camera recordings, and public video captures, it automatically detects and redacts faces and vehicle license plates while offering GPU DirectML hardware acceleration and customizable compression.
@@ -69,7 +69,7 @@ Get-FileHash -Algorithm SHA256 .\DashCam_RoadPrivacy_v1.0.0_win64.zip
 
 ## 📄 License & Attribution
 
-This project is licensed under the [MIT License](LICENSE).  
+This software is distributed under the [Freeware License Agreement](LICENSE). Free to use for personal and commercial purposes.  
 For third-party components and AI model licenses, see [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
 
 Developed by **Artur F.** ([engstaNET](https://github.com/engstaNET)).
